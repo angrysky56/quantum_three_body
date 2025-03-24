@@ -1,0 +1,84 @@
+/* Custom CSS for consistent dark theme */
+
+/* Main notebook background */
+body {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+}
+
+/* Code cells */
+.CodeMirror {
+    background-color: #363636;
+    color: #f0f0f0;
+}
+
+/* Markdown cells */
+div.text_cell_render {
+    color: #f0f0f0;
+    font-size: 16px;
+}
+
+/* Output area */
+div.output_area {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+}
+
+/* Outputs */
+div.output_subarea {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #56b6c2;
+}
+
+/* Links */
+a {
+    color: #61afef;
+}
+
+/* Tables */
+table {
+    background-color: #363636;
+    color: #f0f0f0;
+}
+
+/* Cell selection */
+div.cell.selected {
+    border-color: #61afef;
+}
+
+/* Syntax highlighting */
+.ansi-black-fg { color: #5c6370; }
+.ansi-red-fg { color: #e06c75; }
+.ansi-green-fg { color: #98c379; }
+.ansi-yellow-fg { color: #e5c07b; }
+.ansi-blue-fg { color: #61afef; }
+.ansi-magenta-fg { color: #c678dd; }
+.ansi-cyan-fg { color: #56b6c2; }
+.ansi-white-fg { color: #abb2bf; }
+
+/* Toolbar and menu */
+#menubar, .navbar {
+    background-color: #282c34;
+    color: #f0f0f0;
+}
+
+/* Buttons */
+.btn {
+    background-color: #3a3f4b;
+    color: #f0f0f0;
+    border-color: #5c6370;
+}
+
+.btn:hover {
+    background-color: #4b5363;
+}
+
+/* Consistent background for all elements */
+* {
+    background-color: #2d2d2d !important;
+}

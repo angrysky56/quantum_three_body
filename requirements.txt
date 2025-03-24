@@ -1,0 +1,20 @@
+# Core dependencies
+numpy>=1.20.0
+scipy>=1.6.0
+matplotlib>=3.4.0
+qutip>=4.6.0
+ipython>=7.0.0
+jupyter>=1.0.0
+seaborn>=0.11.0
+
+# GPU acceleration (optional)
+cupy-cuda12x>=12.0.0; platform_system != "Darwin"  # CuPy for CUDA 12.x
+pycuda>=2025.1; platform_system != "Darwin"       # PyCUDA for direct CUDA access
+
+# Interactive visualization
+plotly>=5.5.0
+ipywidgets>=7.6.0
+ipyvolume>=0.5.2
+
+# Jupyter extensions
+jupyter_contrib_nbextensions>=0.5.1
